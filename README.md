@@ -1,16 +1,26 @@
-# AES File Encryption Project
+# AES File Encryptor
+# Group Project — Encryption using AES
 
-This project demonstrates secure file encryption using AES encryption techniques.
+# Setup
+# 1. Install Python dependencies
+pip install -r requirements.txt
 
-## Features
-- AES file encryption
-- Secure key handling
-- File protection workflow
 
-## Technologies Used
-- Python
-- Cryptography concepts
-- File handling
+# 2. Set up Gmail App Password
+Gmail no longer allows regular passwords for SMTP.
+You need a Gmail App Password:
 
-## Purpose
-This project was created as part of cybersecurity and computer science learning to demonstrate understanding of encryption and secure file transfer concepts. 
+1. Go to [myaccount.google.com](https://myaccount.google.com)
+2. Security → App Passwords
+3. Create one: App = "Mail", Device = "Other (Custom name)"
+4. Copy the 16-character password shown
+
+# 3. Run the application
+python main.py
+
+
+# Member Responsibilities
+1 - `core/aes_encryption.py` | AES-GCM encrypt/decrypt, PBKDF2 key derivation 
+2 - `core/key_manager.py` | Key generation, key wrapping, key file I/O 
+3 - `email_handler/gmail_sender.py` | SMTP connection, email composition, send 
+4 - Anisa Jakupi `gui/app_window.py` | Tkinter GUI, file pickers, tabs, threading 

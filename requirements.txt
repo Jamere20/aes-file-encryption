@@ -1,0 +1,9 @@
+# AES File Encryptor - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+cryptography>=41.0.0   # AES-GCM encryption, PBKDF2 key derivation
+# smtplib  — built into Python standard library (no install needed)
+# tkinter  — built into Python standard library (no install needed)
+# json     — built into Python standard library (no install needed)
+# os       — built into Python standard library (no install needed)
+# threading — built into Python standard library (no install needed)
