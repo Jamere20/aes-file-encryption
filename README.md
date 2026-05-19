@@ -13,4 +13,4 @@ This project demonstrates secure file encryption using AES encryption techniques
 - File handling
 
 ## Purpose
-This project was created as part of cybersecurity and computer science learning to demonstrate understanding of encryption and secure file transfer concepts.
+This project was created as part of cybersecurity and computer science learning to demonstrate understanding of encryption and secure file transfer concepts. 
